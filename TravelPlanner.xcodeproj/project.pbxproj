@@ -98,11 +98,10 @@
 		AAA5A0E029968000009E02AB /* TravelPlanner */ = {
 			isa = PBXGroup;
 			children = (
-				AAA5A0E129968000009E02AB /* TravelPlannerApp.swift */,
-				AAA5A0E329968000009E02AB /* ContentView.swift */,
-				AAA5A0E529968001009E02AB /* Assets.xcassets */,
-				AAA5A0EA29968001009E02AB /* Persistence.swift */,
-				AAA5A0EC29968001009E02AB /* TravelPlanner.xcdatamodeld */,
+				AAA5A110299684DB009E02AB /* Model */,
+				AAA5A111299684EB009E02AB /* View */,
+				AAA5A112299684F5009E02AB /* ViewModel */,
+				AAA5A1132996850D009E02AB /* Shared */,
 				AAA5A0E729968001009E02AB /* Preview Content */,
 			);
 			path = TravelPlanner;
@@ -131,6 +130,47 @@
 				AAA5A10329968001009E02AB /* TravelPlannerUITestsLaunchTests.swift */,
 			);
 			path = TravelPlannerUITests;
+			sourceTree = "<group>";
+		};
+		AAA5A110299684DB009E02AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAA5A111299684EB009E02AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5A0E329968000009E02AB /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAA5A112299684F5009E02AB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AAA5A1132996850D009E02AB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5A1142996856B009E02AB /* DB */,
+				AAA5A0E529968001009E02AB /* Assets.xcassets */,
+				AAA5A0E129968000009E02AB /* TravelPlannerApp.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AAA5A1142996856B009E02AB /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5A0EA29968001009E02AB /* Persistence.swift */,
+				AAA5A0EC29968001009E02AB /* TravelPlanner.xcdatamodeld */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
