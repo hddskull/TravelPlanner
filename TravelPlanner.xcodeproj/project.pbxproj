@@ -16,6 +16,15 @@
 		AAA5A0F829968001009E02AB /* TravelPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A0F729968001009E02AB /* TravelPlannerTests.swift */; };
 		AAA5A10229968001009E02AB /* TravelPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A10129968001009E02AB /* TravelPlannerUITests.swift */; };
 		AAA5A10429968001009E02AB /* TravelPlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A10329968001009E02AB /* TravelPlannerUITestsLaunchTests.swift */; };
+		AAA5A11B29968A63009E02AB /* NavigationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A11A29968A63009E02AB /* NavigationStorage.swift */; };
+		AAA5A11D29968B16009E02AB /* NavigationPathItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A11C29968B16009E02AB /* NavigationPathItem.swift */; };
+		AAA5A120299693F6009E02AB /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A11F299693F6009E02AB /* UIApplicationExtension.swift */; };
+		AAA5A1222996945F009E02AB /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A1212996945F009E02AB /* ViewExtension.swift */; };
+		AAA5A128299695BF009E02AB /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A127299695BF009E02AB /* CityView.swift */; };
+		AAA5A12A299695D0009E02AB /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A129299695D0009E02AB /* FoodView.swift */; };
+		AAA5A12C2996961B009E02AB /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A12B2996961B009E02AB /* PlacesView.swift */; };
+		AAA5A12E29969CF4009E02AB /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A12D29969CF4009E02AB /* CartView.swift */; };
+		AAA5A13029969D07009E02AB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A12F29969D07009E02AB /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,15 @@
 		AAA5A0FD29968001009E02AB /* TravelPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA5A10129968001009E02AB /* TravelPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPlannerUITests.swift; sourceTree = "<group>"; };
 		AAA5A10329968001009E02AB /* TravelPlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAA5A11A29968A63009E02AB /* NavigationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStorage.swift; sourceTree = "<group>"; };
+		AAA5A11C29968B16009E02AB /* NavigationPathItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPathItem.swift; sourceTree = "<group>"; };
+		AAA5A11F299693F6009E02AB /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		AAA5A1212996945F009E02AB /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		AAA5A127299695BF009E02AB /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		AAA5A129299695D0009E02AB /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		AAA5A12B2996961B009E02AB /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
+		AAA5A12D29969CF4009E02AB /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		AAA5A12F29969D07009E02AB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +160,10 @@
 		AAA5A111299684EB009E02AB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AAA5A1152996893E009E02AB /* Registration */,
+				AAA5A11629968951009E02AB /* Shop */,
+				AAA5A11729968979009E02AB /* Cart */,
+				AAA5A11829968981009E02AB /* Settings */,
 				AAA5A0E329968000009E02AB /* ContentView.swift */,
 			);
 			path = View;
@@ -157,6 +179,8 @@
 		AAA5A1132996850D009E02AB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				AAA5A11E299693CC009E02AB /* Extensions */,
+				AAA5A11929968A41009E02AB /* Navigation */,
 				AAA5A1142996856B009E02AB /* DB */,
 				AAA5A0E529968001009E02AB /* Assets.xcassets */,
 				AAA5A0E129968000009E02AB /* TravelPlannerApp.swift */,
@@ -171,6 +195,57 @@
 				AAA5A0EC29968001009E02AB /* TravelPlanner.xcdatamodeld */,
 			);
 			path = DB;
+			sourceTree = "<group>";
+		};
+		AAA5A1152996893E009E02AB /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		AAA5A11629968951009E02AB /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5A127299695BF009E02AB /* CityView.swift */,
+				AAA5A12B2996961B009E02AB /* PlacesView.swift */,
+				AAA5A129299695D0009E02AB /* FoodView.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		AAA5A11729968979009E02AB /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5A12D29969CF4009E02AB /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		AAA5A11829968981009E02AB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5A12F29969D07009E02AB /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AAA5A11929968A41009E02AB /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5A11A29968A63009E02AB /* NavigationStorage.swift */,
+				AAA5A11C29968B16009E02AB /* NavigationPathItem.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		AAA5A11E299693CC009E02AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5A11F299693F6009E02AB /* UIApplicationExtension.swift */,
+				AAA5A1212996945F009E02AB /* ViewExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,9 +379,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAA5A0EE29968001009E02AB /* TravelPlanner.xcdatamodeld in Sources */,
+				AAA5A11D29968B16009E02AB /* NavigationPathItem.swift in Sources */,
+				AAA5A11B29968A63009E02AB /* NavigationStorage.swift in Sources */,
+				AAA5A12C2996961B009E02AB /* PlacesView.swift in Sources */,
 				AAA5A0EB29968001009E02AB /* Persistence.swift in Sources */,
 				AAA5A0E429968000009E02AB /* ContentView.swift in Sources */,
+				AAA5A12E29969CF4009E02AB /* CartView.swift in Sources */,
+				AAA5A120299693F6009E02AB /* UIApplicationExtension.swift in Sources */,
+				AAA5A12A299695D0009E02AB /* FoodView.swift in Sources */,
+				AAA5A1222996945F009E02AB /* ViewExtension.swift in Sources */,
+				AAA5A128299695BF009E02AB /* CityView.swift in Sources */,
 				AAA5A0E229968000009E02AB /* TravelPlannerApp.swift in Sources */,
+				AAA5A13029969D07009E02AB /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
