@@ -3,7 +3,7 @@
 ##Todo's:
 
 #Navigation:
-- [ ] add navigation between screens
+- [x] add navigation between screens
 - [ ] add bar menu
 - [ ] add breadcrums on shop
 
