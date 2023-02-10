@@ -2,18 +2,17 @@
 
 
 ## Todo's:
-
-# Navigation:
+### Navigation:
 
 - [x] add navigation between screens
 - [ ] add bar menu
 - [ ] add breadcrums on shop
 
-# View:
+### View:
 tbd
 
-# DB:
+### DB:
 tbd
 
-# Business logic:
+### Business logic:
 tbd
