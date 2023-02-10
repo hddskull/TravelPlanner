@@ -1,8 +1,10 @@
 # TravelPlanner
 
+
 ## Todo's:
 
 # Navigation:
+
 - [x] add navigation between screens
 - [ ] add bar menu
 - [ ] add breadcrums on shop
